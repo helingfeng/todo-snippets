@@ -1,7 +1,7 @@
 
 ## HTTP强制重定向HTTPS
 
-```conf
+```shell
 server {
         listen       80;
         server_name  www.helingfeng.com;

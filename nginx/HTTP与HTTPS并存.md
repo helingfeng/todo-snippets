@@ -1,7 +1,7 @@
 
 # HTTP与HTTPS并存
 
-```conf
+```shell
 server {
         listen       80;
         server_name  www.helingfeng.com;
