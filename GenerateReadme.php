@@ -25,7 +25,7 @@ EOT;
             foreach($_dirs as $file){
 
                 // 遍历文档
-                if(is_file($root_dir.$dir.'/'.$file)){
+                if(is_file($root_dir.$dir.'/'.$file) && strpos($file, '.md') !== false){
                     $prefix_markdown .= <<<EOT
 - [{$file}](./{$dir}/{$file})
 

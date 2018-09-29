@@ -8,6 +8,8 @@
 - [MySQL数据库引擎.md](./mysql/MySQL数据库引擎.md)
 - [主键设计.md](./mysql/主键设计.md)
 - [最左原则.md](./mysql/最左原则.md)
+- [深入浅出数据库索引原理.md](./mysql/深入浅出数据库索引原理.md)
+- [索引与锁.md](./mysql/索引与锁.md)
 ### nginx
 - [HTTP与HTTPS并存.md](./nginx/HTTP与HTTPS并存.md)
 - [强制HTTPS.md](./nginx/强制HTTPS.md)
