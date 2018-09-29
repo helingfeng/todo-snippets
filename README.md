@@ -1,6 +1,6 @@
 
 ## Snippets
-个人编程笔记本
+个人编程笔记本，全栈工程师修炼之路
 ### javascript
 - [浏览器信息数据上报.md](./javascript/浏览器信息数据上报.md)
 - [错误脚本上报.md](./javascript/错误脚本上报.md)

@@ -3,7 +3,7 @@
 $prefix_markdown = <<<EOT
 
 ## Snippets
-个人编程笔记本
+个人编程笔记本，全栈工程师修炼之路
 
 EOT;
 
@@ -36,6 +36,6 @@ EOT;
     }
 }
 
-echo $prefix_markdown;
-
 file_put_contents('./README.md', $prefix_markdown);
+
+echo "done. \n\r";
