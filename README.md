@@ -3,6 +3,7 @@
 个人编程笔记本，全栈工程师修炼之路
 ### javascript
 - [浏览器信息数据上报.md](./javascript/浏览器信息数据上报.md)
+- [生成UUID.md](./javascript/生成UUID.md)
 - [错误脚本上报.md](./javascript/错误脚本上报.md)
 ### mysql
 - [MySQL数据库引擎.md](./mysql/MySQL数据库引擎.md)
