@@ -18,6 +18,7 @@
 - [强制HTTPS.md](./nginx/强制HTTPS.md)
 - [防盗链.md](./nginx/防盗链.md)
 ### php
+- [Composer 自动加载.md](./php/Composer 自动加载.md)
 - [文件目录操作.md](./php/文件目录操作.md)
 ### vim
 - [Vim进阶指南.md](./vim/Vim进阶指南.md)
