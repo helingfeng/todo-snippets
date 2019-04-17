@@ -28,8 +28,13 @@ EOT;
 
                 // 遍历文档
                 if(is_file($root_dir.$dir.'/'.$file) && strpos($file, '.md') !== false){
+                    $title = str_replace(' ', '-', $file);
+                    if($title != $file){
+                        copy($root_dir.$dir.'/'.$file, $root_dir.$dir.'/'.$title);
+                        unlink($root_dir.$dir.'/'.$file);
+                    }
                     $prefix_markdown .= <<<EOT
-- [{$file}](./{$dir}/{$file})
+- [{$title}](./{$dir}/{$title})
 
 EOT;
                 }
