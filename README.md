@@ -20,6 +20,7 @@
 ### php
 - [Composer-自动加载.md](./php/Composer-自动加载.md)
 - [Composer-镜像源配置.md](./php/Composer-镜像源配置.md)
+- [PHP7内核剖析.md](./php/PHP7内核剖析.md)
 - [文件目录操作.md](./php/文件目录操作.md)
 ### vim
 - [Vim进阶指南.md](./vim/Vim进阶指南.md)
