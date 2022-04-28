@@ -1,0 +1,19 @@
+#!/usr/bin/env php
+<?php
+
+$rootDir = '/Applications';
+function apps($dir)
+{
+    $files = scandir($dir);
+    foreach ($files as $file) {
+        $subDir = $dir . DIRECTORY_SEPARATOR . $file;
+        if (strpos($file, '.app')) {
+            echo str_replace(".app", "", $file)."\n";
+        } else {
+            if ($file != '.' && $file != '..' && is_dir($subDir)) {
+                apps($subDir);
+            }
+        }
+    }
+}
+apps($rootDir);
